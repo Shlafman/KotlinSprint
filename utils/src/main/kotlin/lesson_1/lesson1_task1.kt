@@ -1,10 +1,7 @@
 package org.example.utils.lesson_1
 
 fun main() {
-    println("Test")
-    println("Aloha")
-
-
-
+    val NumberOfOrders = 75
+    val ThanksAnswer = "Thank you for order from us! "
 
 }
