@@ -1,0 +1,10 @@
+package org.example.utils.lesson_1
+
+fun main() {
+    println("Test")
+    println("Aloha")
+
+
+
+
+}
