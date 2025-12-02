@@ -6,7 +6,6 @@ fun main() {
     var minute: String = "07"
 
     println(year)
-
     println(hour)
     println(minute)
 
