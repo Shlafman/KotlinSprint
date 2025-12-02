@@ -16,5 +16,4 @@ fun main() {
         $partOfYear
         $apogee
     """.trimIndent())
-    //println("$length\n$age\n$partOfDay\n$seconds\n$partOfYear\n$apogee")
 }
