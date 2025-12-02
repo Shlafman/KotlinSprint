@@ -13,5 +13,4 @@ fun main() {
     print(hour)
     print(":")
     print(minute)
-    //println("$hour:$minute")
 }
