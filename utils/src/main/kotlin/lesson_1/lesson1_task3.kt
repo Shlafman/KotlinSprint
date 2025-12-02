@@ -6,11 +6,11 @@ fun main() {
     var minute: String = "07"
 
     println(year)
+
     println(hour)
     println(minute)
+
     hour = "10"
     minute = "55"
-    print(hour)
-    print(":")
-    print(minute)
+    println("$hour:$minute")
 }
