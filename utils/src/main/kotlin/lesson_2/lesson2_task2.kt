@@ -1,12 +1,18 @@
 package org.example.utils.lesson_2
 
 fun main() {
-    val NumberOfOrders = 75
-    val ThanksAnswer = "Thank you for order from us! "
-    println(NumberOfOrders)
-    println(ThanksAnswer)
-    var NumberOfWorkers = 2000
-//    println(NumberOfWorkers)
-    NumberOfWorkers = 1999
-    println(NumberOfWorkers)
+    val oldWorkers = 50
+    val internsWorkers = 30
+    val oldSalary = 30000
+    val internsSalary = 20000
+
+    val oldWorkersExpenses = oldWorkers * oldSalary
+    val internsExpenses = internsWorkers * internsSalary
+    val totalExpenses = oldWorkersExpenses + internsExpenses
+    val totalWorkers = oldWorkers + internsWorkers
+    val averageSalary = totalExpenses / totalWorkers
+
+    println(oldWorkersExpenses)
+    println(totalExpenses)
+    println(averageSalary)
 }
