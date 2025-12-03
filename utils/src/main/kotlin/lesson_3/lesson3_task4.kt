@@ -5,13 +5,11 @@ fun main() {
     var to = "E4"
     var moveNumber = 1
 
-    var movement = "$from-$to:$moveNumber"
-    println(movement)
+    println("$from-$to;$moveNumber")
 
     from = "D2"
     to = "D3"
     moveNumber++
 
-    movement = "$from-$to:$moveNumber"
-    println(movement)
+    println("$from-$to;$moveNumber")
 }
