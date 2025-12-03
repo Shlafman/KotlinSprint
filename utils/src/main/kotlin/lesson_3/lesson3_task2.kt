@@ -1,13 +1,16 @@
 package org.example.utils.lesson_3
 
 fun main() {
-    var years = 22
-    var fullName = "Sidorova Tatiana Sergeevna"
+    var age = 20
+    val name = "Tatiana Sergeevna"
+    var familyName = "Andreeva"
+    var fullName = "$familyName $name"
 
-    println("$fullName, $years")
+    println("$fullName, $age")
 
-    years = 20
-    fullName = "Andreeva Tatiana Sergeevna"
+    age = 22
+    familyName = "Sidorova"
+    fullName = "$familyName $name"
 
-    println("$fullName, $years")
+    println("$fullName, $age")
 }
