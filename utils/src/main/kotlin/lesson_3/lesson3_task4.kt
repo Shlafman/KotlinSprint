@@ -6,7 +6,6 @@ fun main() {
     var moveNumber = 1
 
     var movement = "$from-$to:$moveNumber"
-
     println(movement)
 
     from = "D2"
@@ -14,6 +13,5 @@ fun main() {
     moveNumber++
 
     movement = "$from-$to:$moveNumber"
-
     println(movement)
 }
