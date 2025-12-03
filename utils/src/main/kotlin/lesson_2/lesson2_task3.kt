@@ -1,7 +1,7 @@
 package org.example.utils.lesson_2
 
 const val MINUTES_IN_HOUR = 60
-const val HOURS_IN_DAY = 20
+const val HOURS_IN_DAY = 24
 
 fun main() {
     val departureHour = 9
