@@ -6,8 +6,8 @@ fun main() {
     val buffProcent: Double = 20.0
     val oneHundredProcent = 100
 
-    val bonusCrystalOre = (crystalOre * buffProcent) / oneHundredProcent.toInt()
-    val bonusIronOre = (ironOre * buffProcent) / oneHundredProcent.toInt()
+    val bonusCrystalOre = ((crystalOre * buffProcent) / oneHundredProcent).toInt()
+    val bonusIronOre = ((ironOre * buffProcent) / oneHundredProcent).toInt()
 
     println("Crystalline ore: $bonusCrystalOre")
     println("Iron ore: $bonusIronOre")
