@@ -7,5 +7,5 @@ fun main() {
     val grade4 = 5
     val numberOfStudents = 4
     val averageStd = (grade1 + grade2 + grade3 + grade4).toFloat() / numberOfStudents
-    println("%.2f".format(averageStd)
+    println("%.2f".format(averageStd))
 }
